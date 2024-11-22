@@ -1,0 +1,25 @@
+
+
+
+ Hotel( Hotel_id , Hotel_name ) ;
+ Type( type_Id ,Type_Name );
+ Employee(Employee_id ,Employee_name, Employee_speciality);
+ category(category_id , category_name ,price,beds_numbers )
+
+
+
+1
+relational model :  Hotel( Hotel_id , Hotel_name ,#Type_id)
+
+2
+relational model :   Employee(Employee_id ,Employee_name, Employee_speciality ,#Hotel_id ,#leads_Id)
+
+3 )
+
+	 Room(room_id,floor ,#Hotel_ID ,#category_id)
+
+
+
+
+
+
